@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RunCalc — Privacy &amp; Support</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <nav>
+    <a href="/" class="brand">App<span>time</span></a>
+    <div class="links">
+      <a href="/runcalc.html">RunCalc</a>
+      <a href="/counterspy.html">CounterSpy</a>
+    </div>
+  </nav>
+</header>
+<main>
+  <h1>RunCalc</h1>
+  <p class="lede">Altitude conversions for runners and coaches.</p>
+
+  <h2>What RunCalc does</h2>
+  <ul>
+    <li>Converts race times across any altitude — sea level to 10,000+ ft</li>
+    <li>190+ NCAA tracks, indoor and outdoor, with verified elevations</li>
+    <li>Custom altitudes — enter any elevation in feet or meters</li>
+    <li>16 race distances supported, from 60m through marathon</li>
+    <li>Pace splits — 200m, 400m, 1k, or mile intervals</li>
+    <li>Equivalent times across distances using the Riegel formula</li>
+    <li>Conversion history, track favorites, GPS proximity detection</li>
+  </ul>
+
+  <h2>What RunCalc does NOT do</h2>
+  <ul>
+    <li>Exactly reproduce the NCAA's current internal conversion algorithm (their tables are proprietary)</li>
+    <li>Offer training plans or coaching advice</li>
+  </ul>
+
+  <h2>How the conversion works</h2>
+  <p>
+    RunCalc applies a per-race-distance altitude correction above 3000 ft,
+    calibrated against published NCAA championship-meet conversions and
+    snapshots of the TFRRS conversion tool. Sprints (100m–400m) are largely
+    unaffected. Longer races take a larger penalty as VO<sub>2</sub>max
+    declines with elevation.
+  </p>
+
+  <h2>Privacy</h2>
+  <p>
+    RunCalc runs entirely on your device. We do not collect, transmit, or
+    store any personal data on external servers.
+  </p>
+  <ul>
+    <li><strong>Conversion history &amp; favorites:</strong> stored only in iOS UserDefaults on your device.</li>
+    <li><strong>Location:</strong> used only to detect a nearby track when you allow it. Coordinates never leave the device.</li>
+    <li><strong>Altitude:</strong> read from the device barometer/GPS when permitted. Never transmitted.</li>
+    <li><strong>Ads:</strong> certain optional features are unlocked via a rewarded video ad served by Google AdMob. AdMob's data practices are governed by Google's policies; see <a href="https://support.google.com/admob/answer/6128543">Google AdMob privacy</a>.</li>
+  </ul>
+
+  <h2>Important notes</h2>
+  <ul>
+    <li>RunCalc is <strong>NOT AFFILIATED WITH THE NCAA</strong>.</li>
+    <li>NCAA conversions can change without notice. Treat this app's output as a high-quality estimate, not an official mark.</li>
+    <li>The NCAA has historically not converted altitudes below 3000 ft. RunCalc matches that rule.</li>
+    <li>Original altitude algorithm thanks to Tim Rowberry, former UVU assistant track coach.</li>
+  </ul>
+
+  <h2>Support</h2>
+  <p>Questions, bug reports, feature requests: <a href="mailto:runcalcapps@gmail.com">runcalcapps@gmail.com</a></p>
+
+  <p class="note">Best of luck out there.</p>
+</main>
+<footer>
+  &copy; 2018&ndash;2026 Apptime &middot; <a href="/">Home</a>
+</footer>
+</body>
+</html>
