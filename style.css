@@ -145,3 +145,23 @@ footer {
 footer a {
   color: var(--muted);
 }
+
+.subnav {
+  margin: 0 0 1.5rem;
+  font-size: 0.95rem;
+  color: var(--muted);
+}
+
+.subnav a {
+  margin-right: 1rem;
+}
+
+main h2[id] {
+  scroll-margin-top: 1.5rem;
+}
+
+.updated {
+  color: var(--muted);
+  font-size: 0.9rem;
+  margin-top: 2.5rem;
+}
