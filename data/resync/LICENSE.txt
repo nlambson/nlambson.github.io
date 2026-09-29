@@ -1,0 +1,14 @@
+Resync public airport dataset
+
+Contains data derived from OpenFlights: https://openflights.org/data.php
+Original source: https://github.com/jpatokal/openflights/blob/master/data/airports.dat
+
+The database is made available under the Open Database License 1.0:
+https://opendatacommons.org/licenses/odbl/1-0/
+Individual contents are made available under the Database Contents License 1.0:
+https://opendatacommons.org/licenses/dbcl/1-0/
+
+This is the complete derived dataset bundled with Resync 1.0. It contains
+5,515 public airport records with IATA code (i), city (c), airport name (n),
+and IANA time zone (z). It contains no user trips or personal records.
+These data licenses apply to this dataset, separately from application code.
